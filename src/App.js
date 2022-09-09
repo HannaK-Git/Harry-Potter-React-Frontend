@@ -5,6 +5,7 @@ import CoverPage from "./CoverPage/cover";
 import HomePage from "./Home/HomePage";
 import AuthorComp from "./Author/AuthorComp";
 import MainCharComp from "./MainCharacter/MainCharComp";
+import HogwartsComp from "./Hogwarts/HogwartsComp";
 
 function App() {
   return (
@@ -14,6 +15,7 @@ function App() {
         <Route path="/home" element={<HomePage></HomePage>} />
         <Route path="/author" element={<AuthorComp></AuthorComp>} />
         <Route path="/mainchar" element={<MainCharComp></MainCharComp>} />
+        <Route path="/hogwarts" element={<HogwartsComp></HogwartsComp>} />
       </Routes>
     </>
   );
