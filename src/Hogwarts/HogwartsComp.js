@@ -11,13 +11,17 @@ import flitwick from "../images/flitwick.jpg";
 import hoock from "../images/hooch.jpg";
 import hagrid from "../images/hagrid.jpg";
 import allHouses from "../images/facultLogos.png";
-import { Box, Tab, Avatar, ClickAwayListener } from "@mui/material";
+import Box from "@mui/material/Box";
+import Tab from "@mui/material/Tab";
+import Avatar from "@mui/material/Avatar";
 import gr from "../images/gr.png"
 import sl from "../images/sl.png"
 import rv from "../images/rv.png"
 import hp from "../images/hp.png"
 import hpCover from "../images/hpCover.png"
-import { TabContext, TabList, TabPanel } from "@mui/lab";
+import TabContext from "@mui/lab/TabContext";
+import TabList from "@mui/lab/TabList";
+import TabPanel from "@mui/lab/TabPanel";
 
 
 
