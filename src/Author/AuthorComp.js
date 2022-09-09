@@ -7,11 +7,7 @@ import styles from "./author.module.css";
 import back from "../images/background.jpg";
 import friends from "../images/friends.png";
 
-import Accordion from "@mui/material/Accordion";
-import AccordionSummary from "@mui/material/AccordionSummary";
-import AccordionDetails from "@mui/material/AccordionDetails";
-import Typography from "@mui/material/Typography";
-// import ExpandMoreIcon from "@mui/icons-material/ExpandMore";
+
 
 
 
@@ -85,82 +81,7 @@ const AuthorComp = () => {
         </figure>
       </section>
 
-      <section className={styles.section4}>
-        <h2 className={styles.h2}>Some interesting facts about J.K. Rowling</h2>
-        <article>
-          <Accordion>
-            <AccordionSummary
-              // expandIcon={<ExpandMoreIcon />}
-              aria-controls="panel1a-content"
-              id="panel1a-header"
-            >
-              <Typography>
-                <h3>Rejection by 12 Publishers</h3>
-              </Typography>
-            </AccordionSummary>
-            <AccordionDetails>
-              <Typography>
-                <p>
-                  This is not that much of a lesser-known fact but many people
-                  don’t know this. J. K. Rowling’s Harry Potter was rejected by
-                  12 publishers. But the Bloomsbury publication gave her a
-                  chance and the rest is history. Harry Potter is loved
-                  worldwide and it changed her life.
-                </p>
-              </Typography>
-            </AccordionDetails>
-          </Accordion>
-          <Accordion>
-            <AccordionSummary
-              // expandIcon={<ExpandMoreIcon />}
-              aria-controls="panel2a-content"
-              id="panel2a-header"
-            >
-              <Typography>
-                <h3>Harry and her birthday</h3>
-              </Typography>
-            </AccordionSummary>
-            <AccordionDetails>
-              <Typography>
-                <p>
-                  Harry Potter is a widely loved fantasy fictional. We love all
-                  the characters of the series, even if the character is pure
-                  evil we find something good in them. It is because Rowling has
-                  put her pieces to the characters. And one of the examples of
-                  this is Her and Harry’s. She’s born on 31 July 1965 and
-                  Harry’s birthday in the book is 1980.
-                </p>
-              </Typography>
-            </AccordionDetails>
-          </Accordion>
-          <Accordion>
-            <AccordionSummary
-              // expandIcon={<ExpandMoreIcon />}
-              aria-controls="panel3a-content"
-              id="panel3a-header"
-            >
-              <Typography>
-                <h3>Drafts of Harry Potter were made in Edinburgh’s cafes</h3>
-              </Typography>
-            </AccordionSummary>
-            <AccordionDetails>
-              <Typography>
-                <p>
-                  J. K. Rowling had the idea of Harry Potter when she was
-                  waiting for her train from Manchester to England. She worked
-                  as a researcher and bilingual secretary in London for Amnesty
-                  International. She moved to Edinburgh in 1993 and started
-                  writing the book in the cafes of Edinburgh. Once in an
-                  interview, she said, “Edinburgh is very much home for me and
-                  is the place where Harry evolved over seven books and many,
-                  many hours of writing in its cafes.”
-                </p>
-              </Typography>
-            </AccordionDetails>
-          </Accordion>
-          
-        </article>
-      </section>
+      
       <FooterComp></FooterComp>
     </div>
   );
