@@ -1,0 +1,164 @@
+/*#region Genearal*/
+.main {
+  background-image: linear-gradient(#e5e2f4, #8e83aa);
+}
+
+.h1 {
+  color:#371c4b;
+  font-size: 7rem;
+  text-align: center;
+  font-family: "Playfair Display", serif;
+}
+/*#endregion General*/
+
+/*#region Slider*/
+.eachSlideEffect > div {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-size: cover;
+  height: 700px;
+}
+
+.eachSlideEffect span {
+  padding: 20px;
+  font-size: 20px;
+  background: #efefef;
+  text-align: center;
+}
+
+.slide {
+  max-width: 90%;
+  height: 800px;
+}
+/*#endregion Slider*/
+
+/*#region Gallery*/
+
+.library {
+  display: flex;
+
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+/* .item {
+  background-color: #72628E;
+ 
+  border:  #5A4573 solid 5px;
+  border-radius: 8px;
+  margin: 5em;
+  width: 270px;
+  height: 350px;
+  padding-bottom: 7em;
+}
+
+.item:hover{
+  border: #e5e2f4 solid 5px;
+  border-radius: 8px;
+  box-shadow: 0px 0px 10px #e5e2f4;
+  cursor: pointer;
+}
+
+.item img {
+  width: 100%;
+  height: 100%;
+} */
+
+/*#endregion Gallery*/
+
+
+/*#region Cards*/
+.cardIt{
+    width: 270px;
+  height: 350px;
+  display: flex;
+   flex-wrap: wrap;
+  justify-content: center;
+  margin-bottom: 4rem;
+  padding-right: 7rem;
+  padding-left: 7rem;
+  padding-bottom: 12rem;
+}
+
+.backCard{
+  border: #fff solid 2px;
+  width: 270px;
+  height: 350px;
+  
+}
+
+.itemCard{
+  position: absolute;
+}
+.itemCard, .backCard {
+	
+	
+border:  #5A4573 solid 5px;
+  border-radius: 8px;
+  margin: 5em;
+  width: 270px;
+  height: 350px;
+  padding-bottom: 7em;
+
+	transition: 1s;
+	backface-visibility: hidden;
+	border-radius: 10px;
+}
+
+.itemCard img {
+  width: 100%;
+  height: 100%;
+  border-radius: 7px;
+}
+
+.backCard {
+  line-height: 1.5;
+  overflow: hidden;
+    width: 270px;
+  height: 380px;
+margin: 0;
+padding:0;
+margin-top: 5rem;
+	background-color: #5A4573;
+	transform: rotateY(180deg);
+  padding: 2rem;
+}
+
+.backCard p{
+  border: #735794 solid 5px;
+  padding: 2rem;
+ text-align: left;
+  font-size: 1.5rem;
+  color: #fff;
+
+}
+
+.backCard a{
+  text-decoration: none;
+  color: #fff;
+  font-size: 1.5rem;
+
+}
+
+.backCard a:hover{
+  text-decoration: underline;
+}
+.cardIt:hover .itemCard {transform: rotateY(180deg);
+ 
+}
+.cardIt:hover .backCard {transform: rotateY(360deg);}
+/*#endregion Cards*/
+
+/*#region MediaQueries*/
+@media(max-width: 400px){
+
+ 
+
+
+ 
+}
+
+
+
+/*#endregion MediaQueries*/
