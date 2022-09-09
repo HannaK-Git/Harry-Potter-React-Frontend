@@ -1,0 +1,248 @@
+/*#region General*/
+.mainCont h3{
+  font-family: 'Playfair Display', serif;
+  color: rgb(248, 224, 193);
+ font-size: 2rem;
+ text-align: center;
+}
+
+/*#endregion General*/
+
+
+/*#region Hero*/
+
+.hero{
+  position: relative;
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  
+}
+
+.hero img{
+  width: 100%;
+  height: 100%;
+ 
+}
+
+.hero figcaption{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  border: 4px solid #442D57;
+ font-size: 5rem;
+ font-weight: 700;
+   transform: translate(-50%, -50%);
+ background-color: rgba(0,0,0, 0.4);
+  width: 80%;
+  padding: 20px;
+  text-align: center;
+  animation: from-right 1s ease;
+  animation-delay: 0.1s;
+ 
+}
+@keyframes from-right {
+    0%   { opacity: 0;  }
+    50%{opacity: 0.5;}
+    100% { opacity: 1; }
+ 
+    
+}
+/*#endregion Hero*/
+
+/*#region Houses*/
+
+.section0{
+  display: flex;
+  max-width: 80%;
+  margin: 0 auto;
+  justify-content: left;
+}
+.houses{
+  max-width: 35%;
+}
+
+.houses figure{
+  /* max-width: 35%; */
+  margin: 0;
+  padding: 0;
+  
+}
+.houses figure img{
+  width: 100%;
+  height: 100%;
+}
+
+.boxSec{
+width: 75%;
+margin: 0;
+  padding: 0;
+ 
+}
+
+/*#endregion Houses*/
+
+/*#region Tab Section*/
+.tabSec{
+  /* max-width: 50%; */
+  display: flex;
+}
+
+.tabSec figure{
+  /* max-width: 45%; */
+}
+.tabSec figure img{
+   width: 100%;
+  height: 100%;
+}
+
+
+.tabSec p{
+  max-width: 45%;
+  font-size: 1.5rem;
+  line-height: 1.5;
+  font-family: 'Playfair Display', serif;
+}
+
+.boxSec h2{
+  font-family: 'Playfair Display', serif;
+  color: rgb(248, 224, 193);
+ font-size: 2rem;
+}
+/*#endregion Tab Section*/
+
+/*#region Section1*/
+
+.section1{
+  display: flex;
+  justify-content: center;
+  max-width: 80%;
+  margin: 0 auto;
+  background-color: #8e83aa;
+  border-left: #756b8d solid 2px;
+  border-right: #756b8d solid 2px;
+  padding-bottom: 4rem;
+  padding-top: 4rem;
+}
+
+.section1 figure{
+  max-width: 200px;
+  max-height: 250px;
+  margin-bottom:15rem;
+  
+}
+
+.section1 figure img{
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+
+}
+
+/*#endregion Section1*/
+
+/*#region Section2*/
+
+.section2{
+  display: flex;
+  justify-content: center;
+  max-width: 80%;
+  margin: 0 auto;
+  background-color: #8e83aa;
+ border-left: #756b8d solid 2px;
+  border-right: #756b8d solid 2px;
+   padding-bottom: 4rem;
+}
+
+.section2 figure{
+  max-width: 200px;
+  max-height: 250px;
+  margin-bottom:15rem;
+  
+}
+
+.section2 figure img{
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+
+}
+
+/*#endregion Section2*/
+
+/*#region Section3*/
+
+.section3{
+  display: flex;
+  justify-content: center;
+  max-width: 80%;
+  margin: 0 auto;
+  background-color: #8e83aa;
+  border-left: #756b8d solid 2px;
+  border-right: #756b8d solid 2px;
+  padding-bottom: 4rem;
+}
+
+.section3 figure{
+  max-width: 200px;
+  max-height: 250px;
+  margin-bottom:15rem;
+  
+}
+
+.section3 figure img{
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+
+}
+
+/*#endregion Section3*/
+
+/*#region MediaQueries*/
+
+@media(max-width: 800px){
+  .hero figcaption{
+ font-size: 2rem;
+}
+
+.houses{
+  display: none;
+}
+.section0{
+  max-width: 100%;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+}
+.boxSec{
+  max-width: 90%;
+}
+.tabSec{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.tabSec p{
+  max-width: 100%;
+  font-size: 1rem;
+
+}
+
+.section2{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.section3{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+}
+
+
+/*#endregion MediaQueries*/
