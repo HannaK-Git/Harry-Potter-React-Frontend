@@ -16,6 +16,7 @@
     "react-icons": "^4.4.0",
     "react-router-dom": "^6.3.0",
     "react-scripts": "5.0.1",
+    "react-slideshow-image": "^4.0.5",
     "web-vitals": "^2.1.4"
   },
   "scripts": {
@@ -41,5 +42,9 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "engines": {
+    "node": "v18.8.0",
+    "npm": "8.18.0"
   }
 }
