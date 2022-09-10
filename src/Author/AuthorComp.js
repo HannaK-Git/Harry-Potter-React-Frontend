@@ -77,7 +77,7 @@ const AuthorComp = () => {
       </section>
       <section className={styles.section3}>
         <figure>
-          <img src={friends} />
+          <img src={friends} alt="friends"/>
         </figure>
       </section>
 

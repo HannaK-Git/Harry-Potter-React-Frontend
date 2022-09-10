@@ -26,7 +26,7 @@ let char = data.map((char, index) => {
             return (
               <div className={styles.box}>
                 <figure>
-                  <img src={pic[char.id]} />
+                  <img src={pic[char.id]} alt="pic"/>
                 </figure>
                 <section>
                   <h1 style={{ color: "rgb(248, 224, 193)" }}>{char.name}</h1>
@@ -58,7 +58,7 @@ const search = () => {
     <div>
       <NavBarComp></NavBarComp>
       <figure className={styles.fig1}>
-        <img src={hero} />
+        <img src={hero} alt="hero"/>
       </figure>
 
       {/* Search  */}

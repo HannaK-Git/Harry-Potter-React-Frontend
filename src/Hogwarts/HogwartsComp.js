@@ -83,7 +83,7 @@ const HogwartsComp = () => {
                     Minerva McGonagall.
                   </p>
                   <figure>
-                    <img src={gr} />
+                    <img src={gr} alt="Gryffindor" />
                   </figure>
                 </section>
               </TabPanel>
@@ -107,7 +107,7 @@ const HogwartsComp = () => {
                     Ollivander.
                   </p>
                   <figure>
-                    <img src={rv} />
+                    <img src={rv} alt="Ravenclaw" />
                   </figure>
                 </section>
               </TabPanel>
@@ -131,7 +131,7 @@ const HogwartsComp = () => {
                     Artemisia Lufkin (first female minister for magic).
                   </p>
                   <figure>
-                    <img src={hpCover} />
+                    <img src={hpCover} alt="Hufflepuff" />
                   </figure>
                 </section>
               </TabPanel>
@@ -154,7 +154,7 @@ const HogwartsComp = () => {
                     Ravenclaw.
                   </p>
                   <figure>
-                    <img src={sl} />
+                    <img src={sl} alt="Slytherin" />
                   </figure>
                 </section>
               </TabPanel>
@@ -168,11 +168,9 @@ const HogwartsComp = () => {
         <figure>
           <img src={dumbledore} alt="Dumbledore" />
           <figcaption>
-           
-                <p >Professor Albus Dumbledore</p>
-                
-                    <p>Headmaster</p>
-                  
+            <p>Professor Albus Dumbledore</p>
+
+            <p>Headmaster</p>
           </figcaption>
         </figure>
       </section>
@@ -182,7 +180,6 @@ const HogwartsComp = () => {
           <figcaption>
             <p>Professor Minerva McGonagall</p>
             <p>Professor of Transfiguration and Deputy Headmistress</p>
-            
           </figcaption>
         </figure>
         <figure>
