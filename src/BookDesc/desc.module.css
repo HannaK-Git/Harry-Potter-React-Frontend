@@ -17,11 +17,10 @@
 .section {
   display: flex;
   flex-wrap: wrap;
-  /* justify-content: left; */
+  justify-content: center;
 position: relative;
-  max-width: 80%;
+  max-width: 95%;
   margin: 0 auto;
-  padding-left: 20rem;
   padding-bottom: 10rem;
   background-color: #8e83aa;
   border: #756b8d solid 2px;
@@ -33,6 +32,8 @@ position: relative;
   color: #fff;
   text-align: center;
   margin-bottom: 1rem;
+  padding-top: 2rem;
+  margin:0 auto;
 }
 
 .section p {
@@ -93,55 +94,6 @@ position: relative;
   border-radius: 7px;
 }
 
-/* Card  */
-
-/* .card{
-  max-width: 250px;
-  max-height: 400px;
-  
-}
-
-.back{
-  border: #fff solid 2px;
-  width: 100%;
-  height:80%;
-}
-
-.figure, .back {
-	position: absolute;
-	max-width: 250px;
-  max-height: 400px;
-
-	margin-left: 15rem;
-  margin-top: 3em;
-  margin-bottom: 4rem;
-	transition: 1s;
-	backface-visibility: hidden;
-	border-radius: 10px;
-}
-
-.img {
-  width: 100%;
-  height: 100%;
-  border-radius: 7px;
-}
-
-.back {
-  line-height: 1.5;
-  overflow: hidden;
-  padding: 1rem;
-  margin-left: 10rem ;
-	background-color: #5A4573;
-	transform: rotateY(180deg);
-  padding: 2rem;
-}
-
-.back p{
- text-align: left;
-
-}
-.card:hover .figure {transform: rotateY(180deg);}
-.card:hover .back {transform: rotateY(360deg);} */
 /*#endregion img*/
 
 /*#region Short Description*/
@@ -155,7 +107,7 @@ position: relative;
 .shortDesc p{
   font-size: 2rem;
   color: antiquewhite;
-
+text-align: left;
   margin-top: 1em;
 }
 /*#endregion Short Description*/
@@ -163,9 +115,7 @@ position: relative;
 
 /*#region Hover*/
 .shortDesc {
-	/* width: 300px;
-	height: 300px;
-	background-color: #FFCDD2; */
+	
 	display: flex;
 	justify-content: center;
 	align-items: center;
@@ -215,7 +165,7 @@ position: relative;
 
 /*#endregion Hover*/
 
-/*#endregion MediaQueries*/
+/*#region MediaQueries*/
 
 @media(max-width: 800px){
   .section{
@@ -246,4 +196,4 @@ margin:0;
     margin:0 auto;
   }
 }
-/*#region MediaQueries*/
+/*#endregion MediaQueries*/

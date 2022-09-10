@@ -29,17 +29,19 @@ let data = require('../data.json');
           return (
             <div className={styles.container}>
               <section className={styles.section}>
-                <div className={styles.leftCont}>
+                <section>
                   <h1>{book.bname}</h1>
+
                   <p>Author: {book.author}</p>
+                </section>
+                <div className={styles.leftCont}>
                   <div className={styles.shortDesc}>
                     <p>{book.description}</p>
                   </div>
-                  
+
                   <Link className={styles.link} to="/home">
                     <FaArrowLeft style={{ verticalAlign: "-0.4rem" }} /> Back
                   </Link>
-                  
                 </div>
 
                 <figure className={styles.figure}>
