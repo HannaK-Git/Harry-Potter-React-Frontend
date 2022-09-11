@@ -116,5 +116,10 @@ flex-direction: column;
   .box figure{
     max-width: 80%;
   }
+
+  .box h1{
+    font-size: 3em;
+    margin-bottom: 1rem;
+  }
 }
 /*#endregion MediaQueries*/
