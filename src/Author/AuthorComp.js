@@ -5,6 +5,7 @@ import jkr from "../images/jk-rowling.jpg";
 import styles from "./author.module.css";
 import back from "../images/background.jpg";
 import friends from "../images/friends.png";
+import AccordionComp from "../Accordion/AccordionComp";
 
 
 
@@ -13,7 +14,7 @@ import friends from "../images/friends.png";
 
 const AuthorComp = () => {
 
-
+let accordionData = require("../author.json");
 
 
   return (
@@ -83,7 +84,13 @@ const AuthorComp = () => {
           <img src={friends} alt="friends" />
         </figure>
       </section>
-      
+      <section className={styles.section4}>
+        <ul className="accordion">
+          {accordionData.map(({ heading, content }) => (
+            <AccordionComp heading={heading} content={content} />
+          ))}
+        </ul>
+      </section>
       <FooterComp></FooterComp>
     </div>
   );
