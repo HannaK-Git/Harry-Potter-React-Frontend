@@ -6,7 +6,7 @@ import styles from "./author.module.css";
 import back from "../images/background.jpg";
 import friends from "../images/friends.png";
 
-import Button from "@mui/material/Button";
+
 
 
 
@@ -83,8 +83,7 @@ const AuthorComp = () => {
           <img src={friends} alt="friends" />
         </figure>
       </section>
-      <Button variant="contained">Hello World</Button>
-
+      
       <FooterComp></FooterComp>
     </div>
   );
