@@ -1,6 +1,6 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import hodCover from "../images/hogCover.jpg";
+
 import styles from "./cover.module.css";
 
 const CoverPage = () => {
