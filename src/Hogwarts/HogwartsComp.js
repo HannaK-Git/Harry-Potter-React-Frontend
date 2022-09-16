@@ -14,7 +14,6 @@ import allHouses from "../images/facultLogos.png";
 import gr from "../images/gr.png";
 import sl from "../images/sl.png";
 import rv from "../images/rv.png";
-import hp from "../images/hp.png";
 import hpCover from "../images/hpCover.png";
 import { Tab, Tabs, TabList, TabPanel } from "react-tabs";
 import "react-tabs/style/react-tabs.css";
