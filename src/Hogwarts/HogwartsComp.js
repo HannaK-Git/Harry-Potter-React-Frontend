@@ -76,9 +76,7 @@ const HogwartsComp = () => {
                   throughout the school year. Famous Gryffindors included Albus
                   Dumbledore, Harry Potter, and Minerva McGonagall.
                 </p>
-                <figure>
-                  <img src={gr} alt="Gryffindor" />
-                </figure>
+                
               </section>
             </TabPanel>
             <TabPanel>
@@ -99,9 +97,7 @@ const HogwartsComp = () => {
                   Gilderoy Lockhart, Ignatia Wildsmith (inventor of Floo
                   powder), and Garrick Ollivander.
                 </p>
-                <figure>
-                  <img src={rv} alt="Ravenclaw" />
-                </figure>
+                
               </section>
             </TabPanel>
             <TabPanel>
@@ -121,9 +117,7 @@ const HogwartsComp = () => {
                   Scamander (author of Fantastic Beasts and Where to Find Them),
                   and Artemisia Lufkin (first female minister for magic).
                 </p>
-                <figure>
-                  <img src={hpCover} alt="Hufflepuff" />
-                </figure>
+                
               </section>
             </TabPanel>
             <TabPanel>
@@ -142,9 +136,7 @@ const HogwartsComp = () => {
                   mean that other Houses hadn't produced any; Peter Pettigrew
                   was a Gryffindor, and Quirinus Quirrell was a Ravenclaw.
                 </p>
-                <figure>
-                  <img src={sl} alt="Slytherin"/>
-                </figure>
+                
               </section>
             </TabPanel>
           </Tabs>
