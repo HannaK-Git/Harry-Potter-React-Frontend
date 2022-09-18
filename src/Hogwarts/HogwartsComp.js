@@ -15,14 +15,14 @@ import gr from "../images/gr.png";
 import sl from "../images/sl.png";
 import rv from "../images/rv.png";
 import hpCover from "../images/hpCover.png";
-import { Tab, Tabs, TabList, TabPanel } from "react-tabs";
+import { Slide } from "react-slideshow-image";
 
 
 
 
 const HogwartsComp = () => {
 
-
+const images = [gr, sl, rv, hpCover];
 
 
 
@@ -34,32 +34,14 @@ const HogwartsComp = () => {
         <figcaption>Welcome to Hogwarts</figcaption>
       </figure>
 
-      {/* Tab section  */}
+      {/* Houses section  */}
       <h1> Hogwarts Houses</h1>
       <section className={styles.section0}>
-        <div className={styles.houses}>
-          <figure>
-            <img src={allHouses} alt="Houses" />
-          </figure>
-        </div>
         <div className={styles.boxSec}>
-          <Tabs>
-            <TabList>
-              <Tab>
-                <h2>Gryffindor</h2>
-              </Tab>
-              <Tab>
-                <h2>Ravenclaw</h2>
-              </Tab>
-              <Tab>
-                <h2>Hufflepuff</h2>
-              </Tab>
-              <Tab>
-                <h2>Slytherin</h2>
-              </Tab>
-            </TabList>
-
-            <TabPanel>
+          <Slide autoplay={false} className={styles.slide}>
+            {/* Griffindor  */}
+            <div className={styles.eachSlideEffect}>
+              <h2>Griffindor</h2>
               <section className={styles.tabSec}>
                 <p>
                   Gryffindor valued bravery, daring, nerve, and chivalry. Its
@@ -80,8 +62,9 @@ const HogwartsComp = () => {
                   <img src={gr} alt="Gryffindor" />
                 </figure>
               </section>
-            </TabPanel>
-            <TabPanel>
+            </div>
+            {/* Ravenclaw */}
+            <div className={styles.eachSlideEffect}>
               <h2>Ravenclaw</h2>
               <section className={styles.tabSec}>
                 <p>
@@ -103,8 +86,10 @@ const HogwartsComp = () => {
                   <img src={rv} alt="Ravenclaw" />
                 </figure>
               </section>
-            </TabPanel>
-            <TabPanel>
+            </div>
+            {/* Hufflepuff  */}
+            <div className={styles.eachSlideEffect}>
+              <h2>Hufflepuff </h2>
               <section className={styles.tabSec}>
                 <p>
                   Hufflepuff valued hard work, dedication, patience, loyalty,
@@ -125,8 +110,10 @@ const HogwartsComp = () => {
                   <img src={hpCover} alt="Hufflepuff" />
                 </figure>
               </section>
-            </TabPanel>
-            <TabPanel>
+            </div>
+            {/* Slytherin */}
+            <div className={styles.eachSlideEffect}>
+              <h2>Slytherin </h2>
               <section className={styles.tabSec}>
                 <p>
                   Slytherin valued ambition, leadership, self-preservation,
@@ -146,8 +133,8 @@ const HogwartsComp = () => {
                   <img src={sl} alt="Slytherin" />
                 </figure>
               </section>
-            </TabPanel>
-          </Tabs>
+            </div>
+          </Slide>
         </div>
       </section>
 

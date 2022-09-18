@@ -52,29 +52,28 @@
 
 /*#region Houses*/
 
-.section0{
+.eachSlideEffect  {
+  
   display: flex;
-  max-width: 80%;
-  margin: 0 auto;
-  justify-content: left;
-}
-.houses{
-  max-width: 35%;
-}
-
-.houses figure{
-  /* max-width: 35%; */
-  margin: 0;
-  padding: 0;
+  align-items: center;
+ 
+ 
+   flex-direction: column;
   
 }
-.houses figure img{
-  width: 100%;
-  height: 100%;
+
+.section0{
+
+  max-width: 80%;
+  margin: 0 auto;
+  
+  
 }
 
+
+
 .boxSec{
-width: 75%;
+width: 100%;
 margin: 0;
   padding: 0;
  
@@ -84,12 +83,14 @@ margin: 0;
 
 /*#region Tab Section*/
 .tabSec{
-  /* max-width: 50%; */
+  margin: 0 auto;
   display: flex;
+  justify-content: center;
+ 
 }
 
 .tabSec figure{
-  /* max-width: 45%; */
+  max-width: 35%;
 }
 .tabSec figure img{
    width: 100%;
