@@ -90,7 +90,7 @@ margin: 0;
 }
 
 .tabSec figure{
-  max-width: 35%;
+  max-width: 20%;
 }
 .tabSec figure img{
    width: 100%;
@@ -102,7 +102,9 @@ margin: 0;
   max-width: 45%;
   font-size: 1.5rem;
   line-height: 1.5;
-  font-family: 'Playfair Display', serif;
+  font-family:  serif;
+  color: #442d57;
+  
 }
 
 .boxSec h2{
@@ -220,14 +222,20 @@ margin: 0;
 .boxSec{
   max-width: 90%;
 }
+.tabSec figure{
+  max-width: 80%;
+  
+}
 .tabSec{
   display: flex;
   flex-direction: column;
   justify-content: center;
 }
 .tabSec p{
-  max-width: 100%;
-  font-size: 1rem;
+  max-width: 80%;
+  font-size: 1.3em;
+  padding-left: 3.5em;
+
 
 }
 
