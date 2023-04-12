@@ -1,11 +1,11 @@
 {
   "files": {
-    "main.css": "/Harry-Potter-React-Frontend/static/css/main.274963b2.css",
+    "main.css": "/Harry-Potter-React-Frontend/static/css/main.786bc18b.css",
     "main.js": "/Harry-Potter-React-Frontend/static/js/main.88b857f4.js",
     "static/js/787.44188852.chunk.js": "/Harry-Potter-React-Frontend/static/js/787.44188852.chunk.js",
+    "static/media/brickwallWall.jpg": "/Harry-Potter-React-Frontend/static/media/brickwallWall.acdbd0bf12467eb94ad3.jpg",
     "static/media/letter.jpg": "/Harry-Potter-React-Frontend/static/media/letter.0a4d7892a4c75d100860.jpg",
     "static/media/quidditch.jpg": "/Harry-Potter-React-Frontend/static/media/quidditch.20520aa86cd1de873241.jpg",
-    "static/media/brick-wall.jpg": "/Harry-Potter-React-Frontend/static/media/brick-wall.4d1e4c6e857d47c3cffe.jpg",
     "static/media/gr.png": "/Harry-Potter-React-Frontend/static/media/gr.fc4e2e49b79725e183d4.png",
     "static/media/pic.jpg": "/Harry-Potter-React-Frontend/static/media/pic.bfe43f616d46d65ecac2.jpg",
     "static/media/hogwartsCov.jpg": "/Harry-Potter-React-Frontend/static/media/hogwartsCov.520f5107d9e023635664.jpg",
@@ -39,12 +39,12 @@
     "static/media/flitwick.jpg": "/Harry-Potter-React-Frontend/static/media/flitwick.d462f7cfc4f711a8acbe.jpg",
     "static/media/logo.svg": "/Harry-Potter-React-Frontend/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
     "index.html": "/Harry-Potter-React-Frontend/index.html",
-    "main.274963b2.css.map": "/Harry-Potter-React-Frontend/static/css/main.274963b2.css.map",
+    "main.786bc18b.css.map": "/Harry-Potter-React-Frontend/static/css/main.786bc18b.css.map",
     "main.88b857f4.js.map": "/Harry-Potter-React-Frontend/static/js/main.88b857f4.js.map",
     "787.44188852.chunk.js.map": "/Harry-Potter-React-Frontend/static/js/787.44188852.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.274963b2.css",
+    "static/css/main.786bc18b.css",
     "static/js/main.88b857f4.js"
   ]
 }
