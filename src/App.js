@@ -11,11 +11,10 @@ import BookDescComp from "./BookDesc/BookDescComp";
 function App() {
   return (
     <>
-    
-      <Routes>
-        {/* <Route exact path="/" element={<CoverPage></CoverPage>} /> */}
-        {/* <Route path="/home" element={<HomePage></HomePage>} /> */}
-        <Route exact path="/home" element={<HomePage></HomePage>} />
+      <Routes basename="/Harry-Potter-React-Frontend">
+        <Route exact path="/" element={<CoverPage></CoverPage>} />
+        <Route path="/home" element={<HomePage></HomePage>} />
+
         <Route path="/book/:id" element={<BookDescComp></BookDescComp>} />
         <Route path="/author" element={<AuthorComp></AuthorComp>} />
         <Route path="/mainchar" element={<MainCharComp></MainCharComp>} />
