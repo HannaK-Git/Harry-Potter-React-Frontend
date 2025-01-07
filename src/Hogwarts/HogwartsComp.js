@@ -16,15 +16,23 @@ import sl from "../images/sl.png";
 import rv from "../images/rv.png";
 import hpCover from "../images/hpCover.png";
 import { Slide } from "react-slideshow-image";
+import ModalComp from "./ModalComp";
+import { useState } from "react";
 
 
 
 
 const HogwartsComp = () => {
-
+const [modalData, setModalData] = useState(null);
+const [isModalOpen, setModalOpen] = useState(false);
 const images = [gr, sl, rv, hpCover];
 
+ const handleImageClick = (title, description, image) => {
+   setModalData({ title, description, image });
+   setModalOpen(true);
+ };
 
+ const closeModal = () => setModalOpen(false);
 
   return (
     <div className={styles.mainCont}>
@@ -143,7 +151,17 @@ const images = [gr, sl, rv, hpCover];
 
       <section className={styles.section1}>
         <figure>
-          <img src={dumbledore} alt="Dumbledore" />
+          <img
+            src={dumbledore}
+            alt="Dumbledore"
+            onClick={() =>
+              handleImageClick(
+                "Albus Percival Wulfric Brian Dumbledore",
+                "Dumbledore founded the Order of the Phoenix, a secret organization dedicated to fighting Voldemort and his Death Eaters.",
+                dumbledore
+              )
+            }
+          />
           <figcaption>
             <p>Professor Albus Dumbledore</p>
 
@@ -153,21 +171,51 @@ const images = [gr, sl, rv, hpCover];
       </section>
       <section className={styles.section2}>
         <figure>
-          <img src={mcgonagall} alt="McGonagall" />
+          <img
+            src={mcgonagall}
+            alt="McGonagall"
+            onClick={() =>
+              handleImageClick(
+                "Professor Minerva McGonagall",
+                "Professor of Transfiguration and Deputy Headmistress.",
+                mcgonagall
+              )
+            }
+          />
           <figcaption>
             <p>Professor Minerva McGonagall</p>
             <p>Professor of Transfiguration and Deputy Headmistress</p>
           </figcaption>
         </figure>
         <figure>
-          <img src={snape} alt="Snape" />
+          <img
+            src={snape}
+            alt="Snape"
+            onClick={() =>
+              handleImageClick(
+                "Professor Severus Snape",
+                "The Potions master",
+                snape
+              )
+            }
+          />
           <figcaption>
             <p>Professor Severus Snape</p>
             <p>The Potions master</p>
           </figcaption>
         </figure>
         <figure>
-          <img src={hagrid} alt="Hagrid" />
+          <img
+            src={hagrid}
+            alt="Hagrid"
+            onClick={() =>
+              handleImageClick(
+                "Professor Rubeus Hagrid",
+                "Professor for Care of Magical Creatures",
+                hagrid
+              )
+            }
+          />
           <figcaption>
             <p>Professor Rubeus Hagrid</p>
             <p>Professor for Care of Magical Creatures</p>
@@ -177,27 +225,58 @@ const images = [gr, sl, rv, hpCover];
 
       <section className={styles.section3}>
         <figure>
-          <img src={sprout} alt="Sprout" />
+          <img
+            src={sprout}
+            alt="Sprout"
+            onClick={() =>
+              handleImageClick("Professor Pomona Sprout", "Herbology", sprout)
+            }
+          />
           <figcaption>
             <p>Professor Pomona Sprout</p>
             <p>Herbology</p>
           </figcaption>
         </figure>
         <figure>
-          <img src={flitwick} alt="Flitwick" />
+          <img
+            src={flitwick}
+            alt="Flitwick"
+            onClick={() =>
+              handleImageClick(
+                "Professor Filius FLitwick",
+                "The Charms professor",
+                flitwick
+              )
+            }
+          />
           <figcaption>
             <p>Professor Filius FLitwick</p>
             <p>The Charms professor</p>
           </figcaption>
         </figure>
         <figure>
-          <img src={hoock} alt="Hoock" />
+          <img
+            src={hoock}
+            alt="Hoock"
+            onClick={() =>
+              handleImageClick(
+                "Professor Rolanda Hooch",
+                "Flying teacher and Quidditch match referee",
+                hoock
+              )
+            }
+          />
           <figcaption>
             <p>Professor Rolanda Hooch</p>
             <p>Flying teacher and Quidditch match referee</p>
           </figcaption>
         </figure>
       </section>
+      <ModalComp
+        isOpen={isModalOpen}
+        onClose={closeModal}
+        content={modalData}
+      />
       <FooterComp></FooterComp>
     </div>
   );

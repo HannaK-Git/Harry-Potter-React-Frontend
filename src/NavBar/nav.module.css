@@ -38,6 +38,12 @@ body{
 
 }
 
+.active{
+  color: #D5D3E1;
+  text-decoration: underline;
+  
+}
+
 /*#endregion Text*/
 
 .navClass {

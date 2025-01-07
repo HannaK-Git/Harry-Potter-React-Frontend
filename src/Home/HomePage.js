@@ -30,23 +30,25 @@ const data = require('../data.json')
       <nav className={styles.nav}>
         <NavBarComp />
       </nav>
-      <Slide autoplay={true} className={styles.slide}>
-        <div className={styles.eachSlideEffect}>
-          <div style={{ backgroundImage: `url(${images[0]})` }}>
-            {/* <span>Slide 1</span> */}
+      <div className={styles.slideshow}>
+        <Slide autoplay={true} className={styles.slide}>
+          <div className={styles.eachSlideEffect}>
+            <div style={{ backgroundImage: `url(${images[0]})` }}>
+              {/* <span>Slide 1</span> */}
+            </div>
           </div>
-        </div>
-        <div className={styles.eachSlideEffect}>
-          <div style={{ backgroundImage: `url(${images[1]}` }}>
-            {/* <span>Slide 2</span> */}
+          <div className={styles.eachSlideEffect}>
+            <div style={{ backgroundImage: `url(${images[1]}` }}>
+              {/* <span>Slide 2</span> */}
+            </div>
           </div>
-        </div>
-        <div className={styles.eachSlideEffect}>
-          <div style={{ backgroundImage: `url(${images[2]}` }}>
-            {/* <span>Slide 3</span> */}
+          <div className={styles.eachSlideEffect}>
+            <div style={{ backgroundImage: `url(${images[2]}` }}>
+              {/* <span>Slide 3</span> */}
+            </div>
           </div>
-        </div>
-      </Slide>
+        </Slide>
+      </div>
 
       {/* Gallery items  */}
 
