@@ -1,0 +1,32 @@
+[
+  {
+    "id":0,
+    "name": "Harry Potter",
+    "info": "Harry Potter is the Boy Who Lived, the Chosen One, the hero of the Wizarding world. He grew up with Muggles, and then came to Hogwarts where he faced dangers and terrors beyond his years. He, along with his friends Hermione Granger, Ron Weasley and Neville Longbottom, destroyed Voldemort’s Horcruxes. Harry faced Voldemort at the end of a climactic battle in Hogwarts castle and defeated him."
+  },
+  {
+    "id": 1,
+    "name": "Ronald Weasley",
+    "info": "Ron Weasley is Harry Potter’s best friend and the youngest son of Molly and Arthur Weasley. The story of Ron’s life is one of being overshadowed by his family and friends, yet it is Ron’s heart and humor that have solidified his friendships and given those around him the support they needed to carry through (BLC)."
+  },
+  {
+    "id": 2,
+    "name": "Hermione Granger",
+    "info": "Resourceful, principled and brilliant, Hermione Jean Granger is easily the brightest witch of her generation. She, along with Ron Weasley, is one of Harry Potter’s closest friends. She is also Muggle-born , and so is a living, breathing example of the fallacy of pureblood wizard supremacy."
+  },
+  {
+    "id": 3,
+    "name": "George and Fred Weasley",
+    "info": "George Weasley and Fred Weasley are twin brothers and two of the seven children of Arthur and Molly Weasley. The twins are co-owners of Weasleys’ Wizard Wheezes, a highly successful joke shop in Diagon Alley."
+  },
+   {
+     "id": 4,
+     "name": "Draco Malfoy",
+     "info": "Draco Malfoy is the son and only child of Lucius and Narcissa Malfoy and was a student at Hogwarts in the same year as Harry Potter. "
+   }, 
+    {
+      "id": 5,
+      "name": "Lord Voldemort",
+      "info": "Lord Voldemort, born Tom Marvolo Riddle, was the son of Merope Gaunt (a descendent of Salazar Slytherin) and Tom Riddle, main antagonist "
+    }
+]

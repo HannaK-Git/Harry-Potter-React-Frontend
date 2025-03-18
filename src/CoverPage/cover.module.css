@@ -1,0 +1,50 @@
+.mainD {
+ 
+  /* padding-left: 25rem; */
+display: flex;
+  background-image: url(../images/brickwallWall.jpg);
+  justify-content: center;
+align-items: center;
+ /* flex-wrap: wrap; */
+  border: #000 7px solid;
+  height: 100vh;
+  /* background-repeat: cover; */
+  background-size: 100% 100%;
+}
+
+/*#region Image Cover #*/
+
+/* .img
+ {
+  margin: 0 auto;
+   
+ } */
+
+
+
+/*#endregion Image Cover #*/
+
+/*#region Button #*/
+
+.linkCov {
+  display: inline-block;
+  text-decoration: none;
+   background-color: rgba(220, 145, 145, 0.2);
+  color: #fff;
+  font-size: 5em;
+  font-weight: bold;
+  padding: 1.5rem;
+  border: 3px solid #fff;
+  border-radius: 7px;
+  background-color: rgb(26, 161, 219) 0.5;
+  font-family: cursive;
+  transition: 0.5s;
+}
+
+.linkCov:hover {
+  background-color: rgb(255, 255, 255);
+  color: rgb(26, 161, 219);
+  box-shadow: 0 0 10px #fff;
+ 
+}
+/*#endregion Button #*/
