@@ -17,11 +17,13 @@ import {FaBroom} from 'react-icons/fa'
 import FooterComp from '../Footer/FooterComp'
 import { Link } from 'react-router-dom'
 import { FaAngleDoubleRight } from "react-icons/fa";
+import Owl from '../Owl.js'
 
 
 
 const HomePage = () => {
-const img = [book1, book2, book3, book4, book5, book6, book7];
+const img123 = [book1, book2, book3]
+ const img456 = [book4, book5, book6];
 const images = [hogCover, hogwarts, letter];
 const data = require('../data.json')
 
@@ -60,12 +62,12 @@ const data = require('../data.json')
       <div className={styles.library}>
         {/* Reder Items */}
 
-        {data.map((book, index) => {
+        {data.books123.map((book, index) => {
           return (
             <div key={book.id}>
               <div className={styles.cardIt}>
                 <figure className={styles.itemCard}>
-                  <img src={img[index]} alt="cover" />
+                  <img src={img123[index]} alt="cover" />
 
                   <figcaption>{book.bname}</figcaption>
                 </figure>
@@ -80,6 +82,44 @@ const data = require('../data.json')
             </div>
           );
         })}
+
+        {data.books456.map((book, index) => {
+          return (
+            <div key={book.id}>
+              <div className={styles.cardIt}>
+                <figure className={styles.itemCard}>
+                  <img src={img456[index]} alt="cover" />
+
+                  <figcaption>{book.bname}</figcaption>
+                </figure>
+                <div className={styles.backCard}>
+                  <p>{book.shortDescription}</p>
+                  <Link to={`/book/${book.id}`}>
+                    Read More{" "}
+                    <FaAngleDoubleRight style={{ verticalAlign: "-0.3rem" }} />
+                  </Link>
+                </div>
+              </div>
+            </div>
+          );
+        })}
+        <div className={styles.cardIt}>
+          <Owl />
+        </div>
+        <div className={styles.cardIt}>
+          <figure className={styles.itemCard}>
+            <img src={book7} alt="cover" />
+
+            <figcaption>{data.book7.bname}</figcaption>
+          </figure>
+          <div className={styles.backCard}>
+            <p>{data.book7.shortDescription}</p>
+            <Link to={`/book/${data.book7.id}`}>
+              Read More{" "}
+              <FaAngleDoubleRight style={{ verticalAlign: "-0.3rem" }} />
+            </Link>
+          </div>
+        </div>
       </div>
 
       <FooterComp />

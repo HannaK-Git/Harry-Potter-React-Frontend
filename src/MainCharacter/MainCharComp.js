@@ -13,7 +13,6 @@ import mustNotBeNamed from "../images/mustNotBeNamed.png";
 
 
 
-
 const MainCharComp = () => {
   const [data, setData] = useState([]);
   const pic = [harry, ron, hermione, fredGeorge, draco, mustNotBeNamed];
