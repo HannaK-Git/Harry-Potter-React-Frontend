@@ -32,6 +32,13 @@ Check out the live version: [Harry Potter React Frontend](https://hannak-git.git
    ```bash
    git clone https://github.com/HannaK-Git/Harry-Potter-React-Frontend.git
    cd Harry-Potter-React-Frontend
+
+2. Install dependencies:
+   npm install
+
+3. Start the development server:
+   npm start   
+      
    
 
    
